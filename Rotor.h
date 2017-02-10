@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+#include <exception>
 
 class Rotor
 {
@@ -39,13 +40,12 @@ public:
 	std::string getName() {return _rotorName;}
 };
 
-class Reflector : public Rotor {
+class Reflector : public Rotor { //extends Rotor
 	public:
 		Reflector();
 		Reflector(std::string rotorName, std::string map): Rotor(rotorName, map, "", "") {}
 		
-		bool hashInverse() {return false;}
-		int convertBackward(int unused);
+		bool hasInverse() {return false;}
+		int convertBackward(int unused) {throw "Reflector Doesnt Have This Functionality";}
 }
-
 #endif // ROTOR_H

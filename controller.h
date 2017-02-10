@@ -1,5 +1,6 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
+
 #include <string>
 #include <vector>
 #include <map>
@@ -22,4 +23,4 @@ class Controller {
     std::map<std::string, Rotor*> rotors_;
     bool debug_;
 };
-#endif  // CONTROLLER_H
+#endif 
