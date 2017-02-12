@@ -34,7 +34,7 @@ public:
 		}
 	int convertForward(int p);
 	virtual int convertBackward(int e);
-	bool advance()
+	bool advance();
 	char decode(char letter);
 	char decode2(char letter);
 	std::string getName() {return _rotorName;}
