@@ -38,6 +38,7 @@ public:
 	char decode(char letter);
 	char decode2(char letter);
 	std::string getName() {return _rotorName;}
+	bool atNotch();
 };
 
 class Reflector : public Rotor { //extends Rotor

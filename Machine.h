@@ -8,7 +8,7 @@
 class Machine
 {
 private:
-	std::vector<Rotor> rotors (5);
+	std::vector<Rotor> rotors;
 public:
 	Machine();
 	~Machine();

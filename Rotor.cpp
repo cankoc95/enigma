@@ -27,6 +27,14 @@ char Rotor::decode2(char letter) {
 	return toLetter(backward % ALPHABET_SIZE);
 }
 
+bool Rotor::atNotch(){
+	if (_notch.length() == 2) {
+		return (_setting == toIndex(_notch[0])) || (_setting == toIndex(_notch[1]);
+	}
+	return _setting == _notch[0];
+}
+
+
 
 
 
