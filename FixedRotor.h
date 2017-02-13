@@ -5,11 +5,9 @@
 #include <vector>
 #include "Rotor.h"
 
-class FixedRotor:: public Rotor
-{
+class FixedRotor : public Rotor {
 public:
-	FixedRotor();
-	~FixedRotor();
+	FixedRotor() {}
 	FixedRotor(std::string rotorName, std::string map, string::inverse): Rotor(rotorName, map, inverse, "") {}
 	bool advances() {return false;}
 	bool atNotch() {return false;}

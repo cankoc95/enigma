@@ -4,10 +4,6 @@ Machine::Machine()
 {
 	rotors.reserve(5);
 }
-Machine::~Machine()
-{
-}
-
 void Machine::replaceRotors(std::vector<Rotor> rotorArray){
 	for (int i = 0; i < rotorArray.size(); i++){
 		rotors[i] = rotorArray[i];

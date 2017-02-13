@@ -11,7 +11,6 @@ private:
 	std::vector<Rotor> rotors;
 public:
 	Machine();
-	~Machine();
 	void replaceRotors(std::vector<Rotor> rotorArray);
 	void setRotors(std::string setting);
 	std::string convert(std::string message);
