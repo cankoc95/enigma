@@ -1,1 +1,6 @@
 *.project
+*.o
+*.workspace
+*.mk
+*.txt
+.codelite/*
