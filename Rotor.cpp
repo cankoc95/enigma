@@ -2,16 +2,16 @@
 #include <iostream>
 #include <string>
 
-int Rotor:convertForward(int p){
-	return toIndex(map.at(p));
+int Rotor::convertForward(int p){
+	return toIndex(_map.at(p));
 }
 
-int Rotor:convertBackward(int e) {
-	return toIndex(inverse.at(e));
+int Rotor::convertBackward(int e) {
+	return toIndex(_inverse.at(e));
 }
 
 bool Rotor::advance(){
-	set((_setting + 1) % ALPHABET_SIZE);
+	setSetting((_setting + 1) % ALPHABET_SIZE);
 }
 
 char Rotor::decode(char c) {
@@ -29,7 +29,7 @@ char Rotor::decode2(char letter) {
 
 bool Rotor::atNotch(){
 	if (_notch.length() == 2) {
-		return (_setting == toIndex(_notch[0])) || (_setting == toIndex(_notch[1]);
+		return (_setting == toIndex(_notch[0])) || (_setting == toIndex(_notch[1]));
 	}
 	return _setting == _notch[0];
 }

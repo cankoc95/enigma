@@ -13,7 +13,7 @@ std::string _rotorName, _map, _inverse, _notch;
 
 
 public:
-	final int ALPHABET_SIZE = 26;
+	static const int ALPHABET_SIZE = 26;
 	
 	Rotor(): _setting(0), _rotorName(""), _map(""), _inverse(""), _notch("") {}
 //	~Rotor();
@@ -24,8 +24,8 @@ public:
 		_notch(notch)
 		{}
 	
-	char toLetter(int p) const {return (char) p + 'A';}
-	int toIndex(char c) const {return (int) c - 'A';} 
+	static char toLetter(int p) {return (char) p + 'A';}
+	static int toIndex(char c) {return (int) c - 'A';} 
 	bool advances() {return true;}
 	virtual bool hasInverse() {return true;}
 	int getSetting() {return _setting;}
@@ -48,5 +48,5 @@ class Reflector : public Rotor { //extends Rotor
 		
 		bool hasInverse() {return false;}
 		int convertBackward(int unused) {throw "Reflector Doesnt Have This Functionality";}
-}
+};
 #endif // ROTOR_H

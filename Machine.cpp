@@ -1,4 +1,5 @@
 #include "Machine.h"
+#include "Rotor.h"
 
 Machine::Machine()
 {
@@ -13,7 +14,7 @@ void Machine::replaceRotors(std::vector<Rotor> rotorArray){
 void Machine::setRotors(std::string setting) {
 	int i = 0;
 	for (char& c: setting){
-		rotors[i+1].setSetting(Rotor.toIndex(c));
+		rotors[i+1].setSetting(Rotor::toIndex(c));
 		i++;
 	}
 }
