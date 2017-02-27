@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Enigma.workspace">
-  <int Value="8" Name="m_selectedTab"/>
+  <int Value="9" Name="m_selectedTab"/>
   <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Enigma.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Controller.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="13" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
     <TabInfo>
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Machine.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
@@ -27,7 +20,7 @@
     <TabInfo>
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/PermutationData.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
+      <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -47,22 +40,22 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Rotor.h" Name="FileName"/>
-      <int Value="8" Name="FirstVisibleLine"/>
+      <int Value="16" Name="FirstVisibleLine"/>
       <int Value="26" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Test.cpp" Name="FileName"/>
-      <int Value="29" Name="FirstVisibleLine"/>
-      <int Value="52" Name="CurrentLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/Makefile" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <int Value="4" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -70,6 +63,13 @@
       <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/FixedRotor.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/cankoc/Desktop/cplusplus/enigma/Enigma/PermutationData.cpp" Name="FileName"/>
+      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="21" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
